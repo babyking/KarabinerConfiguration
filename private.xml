@@ -277,61 +277,6 @@
         </item>
         
         <item>
-            <name>long key press to captitalize it</name>
-            <identifier>private.holding_key_for_abc</identifier>
-            
-            <autogen>__HoldingKeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::A, KeyCode::VK_NONE, KeyCode::A, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::B, KeyCode::VK_NONE, KeyCode::B, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::C, KeyCode::VK_NONE, KeyCode::C, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::D, ModifierFlag::NONE, KeyCode::D, KeyCode::VK_NONE, KeyCode::D, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::E, ModifierFlag::NONE, KeyCode::E, KeyCode::VK_NONE, KeyCode::E, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::F, ModifierFlag::NONE, KeyCode::F, KeyCode::VK_NONE, KeyCode::F, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::G, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::H, ModifierFlag::NONE, KeyCode::H, KeyCode::VK_NONE, KeyCode::H, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::I, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::J, ModifierFlag::NONE, KeyCode::J, KeyCode::VK_NONE, KeyCode::J, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::K, ModifierFlag::NONE, KeyCode::K, KeyCode::VK_NONE, KeyCode::K, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::L, ModifierFlag::NONE, KeyCode::L, KeyCode::VK_NONE, KeyCode::L, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::M, ModifierFlag::NONE, KeyCode::M, KeyCode::VK_NONE, KeyCode::M, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::N, ModifierFlag::NONE, KeyCode::N, KeyCode::VK_NONE, KeyCode::N, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::O, ModifierFlag::NONE, KeyCode::O, KeyCode::VK_NONE, KeyCode::O, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::P, ModifierFlag::NONE, KeyCode::P, KeyCode::VK_NONE, KeyCode::P, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Q, ModifierFlag::NONE, KeyCode::Q, KeyCode::VK_NONE, KeyCode::Q, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::R, ModifierFlag::NONE, KeyCode::R, KeyCode::VK_NONE, KeyCode::R, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::S, ModifierFlag::NONE, KeyCode::S, KeyCode::VK_NONE, KeyCode::S, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::T, ModifierFlag::NONE, KeyCode::T, KeyCode::VK_NONE, KeyCode::T, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::U, ModifierFlag::NONE, KeyCode::U, KeyCode::VK_NONE, KeyCode::U, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::V, KeyCode::VK_NONE, KeyCode::V, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::W, ModifierFlag::NONE, KeyCode::W, KeyCode::VK_NONE, KeyCode::W, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::X, KeyCode::VK_NONE, KeyCode::X, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Y, ModifierFlag::NONE, KeyCode::Y, KeyCode::VK_NONE, KeyCode::Y, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::Z, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_1, ModifierFlag::NONE, KeyCode::KEY_1, KeyCode::VK_NONE, KeyCode::KEY_1, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_2, ModifierFlag::NONE, KeyCode::KEY_2, KeyCode::VK_NONE, KeyCode::KEY_2, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_3, ModifierFlag::NONE, KeyCode::KEY_3, KeyCode::VK_NONE, KeyCode::KEY_3, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_4, ModifierFlag::NONE, KeyCode::KEY_4, KeyCode::VK_NONE, KeyCode::KEY_4, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_5, ModifierFlag::NONE, KeyCode::KEY_5, KeyCode::VK_NONE, KeyCode::KEY_5, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_6, ModifierFlag::NONE, KeyCode::KEY_6, KeyCode::VK_NONE, KeyCode::KEY_6, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_7, ModifierFlag::NONE, KeyCode::KEY_7, KeyCode::VK_NONE, KeyCode::KEY_7, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_8, ModifierFlag::NONE, KeyCode::KEY_8, KeyCode::VK_NONE, KeyCode::KEY_8, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_9, ModifierFlag::NONE, KeyCode::KEY_9, KeyCode::VK_NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::KEY_0, ModifierFlag::NONE, KeyCode::KEY_0, KeyCode::VK_NONE, KeyCode::KEY_0, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            
-            <autogen>__HoldingKeyToKey__ KeyCode::BACKQUOTE,      ModifierFlag::NONE, KeyCode::BACKQUOTE,     KeyCode::VK_NONE, KeyCode::BACKQUOTE,     ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::MINUS,          ModifierFlag::NONE, KeyCode::MINUS,         KeyCode::VK_NONE, KeyCode::MINUS,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::EQUAL,          ModifierFlag::NONE, KeyCode::EQUAL,         KeyCode::VK_NONE, KeyCode::EQUAL,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::BRACKET_LEFT,   ModifierFlag::NONE, KeyCode::BRACKET_LEFT,  KeyCode::VK_NONE, KeyCode::BRACKET_LEFT,  ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::BRACKET_RIGHT,  ModifierFlag::NONE, KeyCode::BRACKET_RIGHT, KeyCode::VK_NONE, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::COMMA,          ModifierFlag::NONE, KeyCode::COMMA,         KeyCode::VK_NONE, KeyCode::COMMA,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::DOT,            ModifierFlag::NONE, KeyCode::DOT,           KeyCode::VK_NONE, KeyCode::DOT,           ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::SLASH,          ModifierFlag::NONE, KeyCode::SLASH,         KeyCode::VK_NONE, KeyCode::SLASH,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::BACKSLASH,      ModifierFlag::NONE, KeyCode::BACKSLASH,     KeyCode::VK_NONE, KeyCode::BACKSLASH,     ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::SEMICOLON,      ModifierFlag::NONE, KeyCode::SEMICOLON,     KeyCode::VK_NONE, KeyCode::SEMICOLON,     ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::QUOTE,          ModifierFlag::NONE, KeyCode::QUOTE,         KeyCode::VK_NONE, KeyCode::QUOTE,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-        </item>
-    
-        <item>
             <name>long key press for emacs</name>
             <identifier>private.holding.key.for.emacs</identifier>
             <only>Emacs</only>
