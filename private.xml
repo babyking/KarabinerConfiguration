@@ -98,20 +98,26 @@
             KeyCode::VK_NONE
         </autogen>
     </item>
-    
-    <item>
-        <name>hyper + key </name>        
-        <identifier>private.hyper_key.def</identifier>
-        <autogen>--KeyToKey-- KeyCode::SPACE,{{HyperModifierFlag}}, KeyCode::CAPSLOCK </autogen> 
-        
-        <autogen>--KeyToKey-- KeyCode::C, {{HyperModifierFlag}}, KeyCode::C, ModifierFlag::COMMAND_L </autogen>
-        <autogen>--KeyToKey-- KeyCode::X, {{HyperModifierFlag}}, KeyCode::X, ModifierFlag::COMMAND_L </autogen>
-        <autogen>--KeyToKey-- KeyCode::V, {{HyperModifierFlag}}, KeyCode::V, ModifierFlag::COMMAND_L </autogen>
+     <item>
+        <name>hyperkey(F) + key </name>        
+        <identifier>private.hyper_key_f.def</identifier>
         
         <autogen>--KeyToKey-- KeyCode::H, {{ControlModifierFlag}}, KeyCode::CURSOR_LEFT </autogen>
         <autogen>--KeyToKey-- KeyCode::J, {{ControlModifierFlag}}, KeyCode::CURSOR_DOWN </autogen>
         <autogen>--KeyToKey-- KeyCode::K, {{ControlModifierFlag}}, KeyCode::CURSOR_UP   </autogen>
         <autogen>--KeyToKey-- KeyCode::L, {{ControlModifierFlag}}, KeyCode::CURSOR_RIGHT</autogen>
+    </item>
+    
+    
+    <item>
+        <name>hyper(Capslock) + key </name>        
+        <identifier>private.hyper_key.def</identifier>
+        <autogen>--KeyToKey-- KeyCode::SPACE,{{HyperModifierFlag}}, KeyCode::CAPSLOCK </autogen> 
+        
+<!--         <autogen>--KeyToKey-- KeyCode::C, {{HyperModifierFlag}}, KeyCode::C, ModifierFlag::COMMAND_L </autogen>
+        <autogen>--KeyToKey-- KeyCode::X, {{HyperModifierFlag}}, KeyCode::X, ModifierFlag::COMMAND_L </autogen>
+        <autogen>--KeyToKey-- KeyCode::V, {{HyperModifierFlag}}, KeyCode::V, ModifierFlag::COMMAND_L </autogen>
+        
 
         <autogen>--KeyToKey-- KeyCode::H, {{HyperModifierFlag}}, KeyCode::CURSOR_LEFT </autogen>
         <autogen>--KeyToKey-- KeyCode::J, {{HyperModifierFlag}}, KeyCode::CURSOR_DOWN </autogen>
@@ -129,9 +135,9 @@
         <autogen>--KeyToKey-- KeyCode::G, {{HyperModifierFlag}}, KeyCode::ESCAPE</autogen>
         <autogen>--KeyToKey-- KeyCode::P, {{HyperModifierFlag}}, KeyCode::P, ModifierFlag::COMMAND_L </autogen>
         <autogen>--KeyToKey-- KeyCode::R, {{HyperModifierFlag}}, KeyCode::R, ModifierFlag::COMMAND_L </autogen>
-        <autogen>--KeyToKey-- KeyCode::S, {{HyperModifierFlag}}, KeyCode::S, ModifierFlag::COMMAND_L </autogen>
+
         <autogen>--KeyToKey-- KeyCode::T, {{HyperModifierFlag}}, KeyCode::T, ModifierFlag::COMMAND_L </autogen>
-        <autogen>--KeyToKey-- KeyCode::Z, {{HyperModifierFlag}}, KeyCode::Z, ModifierFlag::COMMAND_L </autogen>
+        <autogen>--KeyToKey-- KeyCode::Z, {{HyperModifierFlag}}, KeyCode::Z, ModifierFlag::COMMAND_L </autogen> -->
         
         
 
@@ -276,6 +282,8 @@
             <autogen>__HoldingKeyToKey__ KeyCode::ESCAPE, ModifierFlag::NONE, KeyCode::ESCAPE, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
         </item>
         
+        
+    
         <item>
             <name>long key press for emacs</name>
             <identifier>private.holding.key.for.emacs</identifier>
