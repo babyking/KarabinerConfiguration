@@ -13,20 +13,20 @@
     </devicevendordef>
 
 
-    
+
     <deviceproductdef>
         <productname>HHKB</productname>
         <productid>0x0100</productid>
     </deviceproductdef>
-    
+
    <deviceproductdef>
         <productname>Trackpoint</productname>
         <productid>0x6009</productid>
-    </deviceproductdef> 
+    </deviceproductdef>
    <deviceproductdef>
         <productname>Filco87</productname>
         <productid>0x1818</productid>
-    </deviceproductdef> 
+    </deviceproductdef>
 
     <appdef>
         <appname>Chrome</appname>
@@ -45,20 +45,20 @@
         <equal>com.sublimetext.2</equal>
     </appdef>
 
-    
+
 
     <replacementdef>
         <replacementname>HyperModifierFlag</replacementname>
         <replacementvalue>ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L| ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L</replacementvalue>
-    </replacementdef> 
+    </replacementdef>
     <replacementdef>
         <replacementname>ControlModifierFlag</replacementname>
         <replacementvalue>ModifierFlag::CONTROL_L | ModifierFlag::CONTROL_R</replacementvalue>
         <!-- <replacementvalue>ModifierFlag::OPTION_L | ModifierFlag::OPTION_R</replacementvalue> -->
     </replacementdef>
-    
 
-    
+
+
     <!----------------------------------------body with key define ----------------------------------------->
 
     <item>
@@ -86,7 +86,7 @@
             KeyCode::VK_NONE
         </autogen>
     </item>
-    
+
     <item>
         <name>Disable Sysdiagnose COMMA Key</name>
         <appendix>Disable Sysdiagnose Key</appendix>
@@ -99,35 +99,34 @@
         </autogen>
     </item>
      <item>
-        <name>hyperkey(F) + key </name>        
+        <name>hyperkey(F) + key </name>
         <identifier>private.hyper_key_f.def</identifier>
-        
         <autogen>--KeyToKey-- KeyCode::H, {{ControlModifierFlag}}, KeyCode::CURSOR_LEFT </autogen>
         <autogen>--KeyToKey-- KeyCode::J, {{ControlModifierFlag}}, KeyCode::CURSOR_DOWN </autogen>
         <autogen>--KeyToKey-- KeyCode::K, {{ControlModifierFlag}}, KeyCode::CURSOR_UP   </autogen>
         <autogen>--KeyToKey-- KeyCode::L, {{ControlModifierFlag}}, KeyCode::CURSOR_RIGHT</autogen>
     </item>
-    
-    
+
+
     <item>
-        <name>hyper(Capslock) + key </name>        
+        <name>hyper(Capslock) + key </name>
         <identifier>private.hyper_key.def</identifier>
-        <autogen>--KeyToKey-- KeyCode::SPACE,{{HyperModifierFlag}}, KeyCode::CAPSLOCK </autogen> 
-        
+        <autogen>--KeyToKey-- KeyCode::SPACE,{{HyperModifierFlag}}, KeyCode::CAPSLOCK </autogen>
+
 <!--         <autogen>--KeyToKey-- KeyCode::C, {{HyperModifierFlag}}, KeyCode::C, ModifierFlag::COMMAND_L </autogen>
         <autogen>--KeyToKey-- KeyCode::X, {{HyperModifierFlag}}, KeyCode::X, ModifierFlag::COMMAND_L </autogen>
         <autogen>--KeyToKey-- KeyCode::V, {{HyperModifierFlag}}, KeyCode::V, ModifierFlag::COMMAND_L </autogen>
-        
+
 
         <autogen>--KeyToKey-- KeyCode::H, {{HyperModifierFlag}}, KeyCode::CURSOR_LEFT </autogen>
         <autogen>--KeyToKey-- KeyCode::J, {{HyperModifierFlag}}, KeyCode::CURSOR_DOWN </autogen>
         <autogen>--KeyToKey-- KeyCode::K, {{HyperModifierFlag}}, KeyCode::CURSOR_UP   </autogen>
         <autogen>--KeyToKey-- KeyCode::L, {{HyperModifierFlag}}, KeyCode::CURSOR_RIGHT</autogen>
 
-        
+
         <autogen>--KeyToKey-- KeyCode::I, {{HyperModifierFlag}}, KeyCode::PAGEUP   </autogen>
-        <autogen>--KeyToKey-- KeyCode::U, {{HyperModifierFlag}}, KeyCode::PAGEDOWN </autogen>        
-        
+        <autogen>--KeyToKey-- KeyCode::U, {{HyperModifierFlag}}, KeyCode::PAGEDOWN </autogen>
+
         <autogen>--KeyToKey-- KeyCode::A, {{HyperModifierFlag}}, KeyCode::A, ModifierFlag::COMMAND_L </autogen>
         <autogen>--KeyToKey-- KeyCode::D, {{HyperModifierFlag}}, KeyCode::FORWARD_DELETE </autogen>
         <autogen>--KeyToKey-- KeyCode::E, {{HyperModifierFlag}}, KeyCode::DELETE </autogen>
@@ -138,29 +137,29 @@
 
         <autogen>--KeyToKey-- KeyCode::T, {{HyperModifierFlag}}, KeyCode::T, ModifierFlag::COMMAND_L </autogen>
         <autogen>--KeyToKey-- KeyCode::Z, {{HyperModifierFlag}}, KeyCode::Z, ModifierFlag::COMMAND_L </autogen> -->
-        
-        
+
+
 
         <!--
 
             <autogen>__HoldingKeyToKey__ KeyCode::MINUS,          ModifierFlag::NONE, KeyCode::MINUS,         KeyCode::VK_NONE, KeyCode::MINUS,         {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::EQUAL,          ModifierFlag::NONE, KeyCode::EQUAL,         KeyCode::VK_NONE, KeyCode::EQUAL,         {{HyperModifierFlag}}, Option::NOREPEAT</autogen>    
+            <autogen>__HoldingKeyToKey__ KeyCode::EQUAL,          ModifierFlag::NONE, KeyCode::EQUAL,         KeyCode::VK_NONE, KeyCode::EQUAL,         {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
 
             <autogen>__HoldingKeyToKey__ KeyCode::BRACKET_LEFT,   ModifierFlag::NONE, KeyCode::BRACKET_LEFT,  KeyCode::VK_NONE, KeyCode::BRACKET_LEFT,  ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::SLASH,          ModifierFlag::NONE, KeyCode::SLASH,         KeyCode::VK_NONE, KeyCode::SLASH,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::SEMICOLON,      ModifierFlag::NONE, KeyCode::SEMICOLON,     KeyCode::VK_NONE, KeyCode::SEMICOLON,     ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::QUOTE,          ModifierFlag::NONE, KeyCode::QUOTE,         KeyCode::VK_NONE, KeyCode::QUOTE,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>       
+            <autogen>__HoldingKeyToKey__ KeyCode::QUOTE,          ModifierFlag::NONE, KeyCode::QUOTE,         KeyCode::VK_NONE, KeyCode::QUOTE,         ModifierFlag::SHIFT_L, Option::NOREPEAT</autogen>
 
-        --> s
+        -->
 
 
-        
+
         <!--<autogen>--KeyToKey-- KeyCode::N, {{HyperModifierFlag}}, KeyCode::DELETE</autogen>-->
-        
+
         <!--<autogen>--KeyToKey-- KeyCode::O,   {{HyperModifierFlag}}, KeyCode::ENTER </autogen>-->
     </item>
 
-   <item>
+    <item>
         <name>HHKB Custom</name>
         <item>
             <name>(hyper key define in HHKB)click control  to ESCAPE,but holding to hyper,hyper is ModifierKey with COMMAND_L,OPTION_L,SHIFT_L and CONTROL_L</name>
@@ -174,8 +173,8 @@
                 ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
                 KeyCode::ESCAPE
             </autogen>
-        </item>        
-        
+        </item>
+
         <item>
             <name>ESCAPE to ~</name>
             <identifier>private.esc2backquoteinhhkb</identifier>
@@ -185,7 +184,7 @@
             <autogen>--KeyToKey-- KeyCode::ESCAPE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE </autogen>
         </item>
     </item>
-    
+
     <item>
         <name>Filco87</name>
         <item>
@@ -200,7 +199,7 @@
                 ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
                 KeyCode::ESCAPE
             </autogen>
-        </item>        
+        </item>
         <item>
             <name>ESCAPE to ~</name>
             <identifier>private.esc2backquoteinficlo</identifier>
@@ -209,7 +208,7 @@
             <autogen>--KeyToKey-- KeyCode::ESCAPE,    KeyCode::BACKQUOTE , Option::NOREPEAT</autogen>
             <autogen>--KeyToKey-- KeyCode::ESCAPE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE </autogen>
         </item>
-    </item>    
+    </item>
 
     <item>
         <name>Thinkpad Trackpoint Custom</name>
@@ -244,15 +243,15 @@
           <appendix>(+ When you type Space only, send Space) </appendix>
           <identifier>private.remap.space2shiftL_space_keyrepeat</identifier>
           <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::SHIFT_L, KeyCode::SPACE</autogen>
-        </item> 
-        
+        </item>
+
         <item>
             <name>Ctrl+h,j to backspace,enter</name>
             <not>Emacs</not>
             <identifier>private.remap.backspace.enter</identifier>
             <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::DELETE</autogen>
             <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::ENTER</autogen>
-            
+
         </item>
 
         <item>
@@ -260,26 +259,26 @@
             <identifier>private.remap.backquotetoesc</identifier>
             <autogen>--KeyToKey-- KeyCode::BACKQUOTE,  KeyCode::ESCAPE</autogen>
             <!-- <autogen>--KeyToKey-- KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE</autogen> -->
-            
+
         </item>
-        
+
     </item>
-    
+
     <item>
         <name>double press</name>
         <item>
-            <name>双击右shift=>capslock</name>            
+            <name>双击右shift=>capslock</name>
             <identifier>double_press.ctrl_r_to_enter</identifier>
             <autogen>--DoublePressModifier-- KeyCode::SHIFT_R, KeyCode::VK_LAZY_SHIFT_R, KeyCode::CAPSLOCK</autogen>
         </item>
         <item>
-            <name>double command</name>            
+            <name>double command</name>
             <identifier>double_press.command</identifier>
             <autogen>--DoublePressModifier-- KeyCode::COMMAND_L, KeyCode::VK_LAZY_COMMAND_L, KeyCode::TAB, ModifierFlag::COMMAND_L </autogen>
             <autogen>--DoublePressModifier-- KeyCode::COMMAND_R, KeyCode::VK_LAZY_COMMAND_R, KeyCode::TAB, ModifierFlag::COMMAND_R </autogen>
         </item>
     </item>
-    
+
     <item>
         <name>long press</name>
         <item>
@@ -287,9 +286,9 @@
             <identifier>private.holding_key_for_esc</identifier>
             <autogen>__HoldingKeyToKey__ KeyCode::ESCAPE, ModifierFlag::NONE, KeyCode::ESCAPE, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
         </item>
-        
-        
-    
+
+
+
         <item>
             <name>long key press for emacs</name>
             <identifier>private.holding.key.for.emacs</identifier>
@@ -325,17 +324,17 @@
         <item>
             <name>long key press to modifier + key</name>
             <identifier>private.holding_key_for_modifier_abc</identifier>
-            <not>Emacs</not>
+            <!-- <not>Emacs</not> -->
             <autogen>__HoldingKeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::A, KeyCode::VK_NONE, KeyCode::A, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::B, KeyCode::VK_NONE, KeyCode::B, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::C, KeyCode::VK_NONE, KeyCode::C, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <!-- <autogen>__HoldingKeyToKey__ KeyCode::D, ModifierFlag::NONE, KeyCode::D, KeyCode::VK_NONE, KeyCode::DELETE</autogen> -->
             <!-- <autogen>__HoldingKeyToKey__ KeyCode::D, ModifierFlag::NONE, KeyCode::D, KeyCode::VK_NONE, KeyCode::D, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen> -->
             <autogen>__HoldingKeyToKey__ KeyCode::E, ModifierFlag::NONE, KeyCode::E, KeyCode::VK_NONE, KeyCode::ESCAPE</autogen>
-            
+
             <autogen>__HoldingKeyToKey__ KeyCode::F, ModifierFlag::NONE, KeyCode::F, KeyCode::VK_NONE, KeyCode::CONTROL_L, ModifierFlag::CONTROL_R, Option::NOREPEAT</autogen>
-            
-             <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::SPACE, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
+
+             <!-- <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::SPACE, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen> -->
              <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::KEY_1, {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::H, ModifierFlag::NONE, KeyCode::H, KeyCode::VK_NONE, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::I, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
@@ -357,7 +356,7 @@
             <autogen>__HoldingKeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::X, KeyCode::VK_NONE, KeyCode::X, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::Y, ModifierFlag::NONE, KeyCode::Y, KeyCode::VK_NONE, KeyCode::Y, {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::Z, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
-            
+
             <autogen>__HoldingKeyToKey__ KeyCode::KEY_1, ModifierFlag::NONE, KeyCode::KEY_1, KeyCode::VK_NONE, KeyCode::KEY_1, {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::KEY_2, ModifierFlag::NONE, KeyCode::KEY_2, KeyCode::VK_NONE, KeyCode::KEY_2, {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::KEY_3, ModifierFlag::NONE, KeyCode::KEY_3, KeyCode::VK_NONE, KeyCode::KEY_3, {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
@@ -391,16 +390,16 @@
             <item>
               <name>Holding Shift+"J" Key to select text to text bottom</name>
               <identifier>remap.holding_shift_j_to_select_to_text_bottom</identifier>
-              <autogen>__HoldingKeyToKey__ KeyCode::J, VK_SHIFT | ModifierFlag::NONE, KeyCode::J, VK_SHIFT, KeyCode::VK_NONE, KeyCode::CURSOR_DOWN,ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen> 
+              <autogen>__HoldingKeyToKey__ KeyCode::J, VK_SHIFT | ModifierFlag::NONE, KeyCode::J, VK_SHIFT, KeyCode::VK_NONE, KeyCode::CURSOR_DOWN,ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             </item>
             <item>
               <name>Holding Shift+"K" Key to select text to text top</name>
               <identifier>remap.holding_shift_j_to_select_to_text_top</identifier>
-              <autogen>__HoldingKeyToKey__ KeyCode::K, VK_SHIFT | ModifierFlag::NONE, KeyCode::K, VK_SHIFT, KeyCode::VK_NONE, KeyCode::CURSOR_UP,ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen> 
+              <autogen>__HoldingKeyToKey__ KeyCode::K, VK_SHIFT | ModifierFlag::NONE, KeyCode::K, VK_SHIFT, KeyCode::VK_NONE, KeyCode::CURSOR_UP,ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             </item>
         </item>
 
     </item>
 
-    
+
 </root>
