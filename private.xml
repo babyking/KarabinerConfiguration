@@ -170,57 +170,6 @@
     </item>
 
 
-   <item>
-        <name>HHKB Custom</name>
-        <item>
-            <name>(hyper key define in HHKB)click control  to ESCAPE,but holding to hyper,hyper is ModifierKey with COMMAND_L,OPTION_L,SHIFT_L and CONTROL_L</name>
-            <identifier>private.controlclick2escinhhkb</identifier>
-            <not>Emacs</not>
-            <device_only>DeviceVendor::Topre,DeviceProduct::HHKB</device_only>
-            <autogen>
-                --KeyOverlaidModifier--
-                KeyCode::CONTROL_L,
-                KeyCode::COMMAND_L,
-                ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
-                KeyCode::ESCAPE
-            </autogen>
-        </item>
-
-        <item>
-            <name>ESCAPE to ~</name>
-            <identifier>private.esc2backquoteinhhkb</identifier>
-            <device_only>DeviceVendor::Topre,DeviceProduct::HHKB</device_only>
-            <autogen>__HoldingKeyToKey__ KeyCode::ESCAPE, ModifierFlag::NONE, KeyCode::ESCAPE, KeyCode::VK_NONE, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>--KeyToKey-- KeyCode::ESCAPE,    KeyCode::BACKQUOTE , Option::NOREPEAT</autogen>
-            <autogen>--KeyToKey-- KeyCode::ESCAPE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE </autogen>
-        </item>
-    </item>
-
-    <item>
-        <name>Filco87</name>
-        <item>
-            <name>(hyper key define in HHKB)click control  to ESCAPE,but holding to hyper,hyper is ModifierKey with COMMAND_L,OPTION_L,SHIFT_L and CONTROL_L</name>
-            <identifier>private.controlclick2escinfilco87</identifier>
-            <not>Emacs</not>
-            <device_only>DeviceVendor::Holtek,DeviceProduct::Filco87</device_only>
-            <autogen>
-                --KeyOverlaidModifier--
-                KeyCode::CONTROL_L,
-                KeyCode::COMMAND_L,
-                ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
-                KeyCode::ESCAPE
-            </autogen>
-        </item>
-        <item>
-            <name>ESCAPE to ~</name>
-            <identifier>private.esc2backquoteinficlo</identifier>
-            <device_only>DeviceVendor::Topre,DeviceProduct::HHKB</device_only>
-            <autogen>__HoldingKeyToKey__ KeyCode::ESCAPE, ModifierFlag::NONE, KeyCode::ESCAPE, KeyCode::VK_NONE, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>--KeyToKey-- KeyCode::ESCAPE,    KeyCode::BACKQUOTE , Option::NOREPEAT</autogen>
-            <autogen>--KeyToKey-- KeyCode::ESCAPE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE </autogen>
-        </item>
-    </item>
-
     <item>
         <name>Thinkpad Trackpoint Custom</name>
         <item>
@@ -252,13 +201,10 @@
             <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::ENTER</autogen>
 
         </item>
-
         <item>
-            <name>` to esc,shift+` to ~ </name>
-            <identifier>private.remap.backquotetoesc</identifier>
-            <autogen>--KeyToKey-- KeyCode::BACKQUOTE,  KeyCode::ESCAPE</autogen>
-            <!-- <autogen>--KeyToKey-- KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE</autogen> -->
-
+          <name>Backquote(`) to Escape if no modifiers pressed</name>
+          <identifier>private.backquote2escape_withoutmodifiers</identifier>
+          <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::ESCAPE</autogen>
         </item>
 
     </item>
@@ -281,9 +227,9 @@
     <item>
         <name>long press</name>
         <item>
-            <name>long press ESCAPE to ^cmd+Z(for QQ)</name>
+            <name>long press ` to ^cmd+Z(for QQ)</name>
             <identifier>private.holding_key_for_esc</identifier>
-            <autogen>__HoldingKeyToKey__ KeyCode::ESCAPE, ModifierFlag::NONE, KeyCode::ESCAPE, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
+            <autogen>__HoldingKeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::BACKQUOTE, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
         </item>
 
 
@@ -374,7 +320,7 @@
 
             <autogen>__HoldingKeyToKey__ KeyCode::DOT, ModifierFlag::NONE, KeyCode::DOT, KeyCode::VK_NONE, KeyCode::DOT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
             <autogen>__HoldingKeyToKey__ KeyCode::COMMA, ModifierFlag::NONE, KeyCode::COMMA, KeyCode::VK_NONE, KeyCode::COMMA,  ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::BACKQUOTE,      ModifierFlag::NONE, KeyCode::BACKQUOTE,     KeyCode::VK_NONE, KeyCode::BACKQUOTE,     {{HyperModifierFlag}}, Option::NOREPEAT</autogen>
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::BACKQUOTE,      ModifierFlag::NONE, KeyCode::BACKQUOTE,     KeyCode::VK_NONE, KeyCode::BACKQUOTE,     {{HyperModifierFlag}}, Option::NOREPEAT</autogen> -->
 
             <!--使用其他键映射为Control  -->
             <autogen>__KeyOverlaidModifier__ KeyCode::TAB, KeyCode::CONTROL_L, KeyCode::TAB</autogen>
