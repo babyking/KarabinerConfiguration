@@ -238,32 +238,32 @@
             <name>long key press for emacs</name>
             <identifier>private.holding.key.for.emacs</identifier>
             <only>Emacs</only>
-            <autogen>__HoldingKeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::A, KeyCode::VK_NONE, KeyCode::A, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::B, KeyCode::VK_NONE, KeyCode::B, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::C, KeyCode::VK_NONE, KeyCode::C, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::D, ModifierFlag::NONE, KeyCode::D, KeyCode::VK_NONE, KeyCode::D, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::E, ModifierFlag::NONE, KeyCode::E, KeyCode::VK_NONE, KeyCode::E, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::F, ModifierFlag::NONE, KeyCode::F, KeyCode::VK_NONE, KeyCode::F, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::G, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::H, ModifierFlag::NONE, KeyCode::H, KeyCode::VK_NONE, KeyCode::H, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::I, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::J, ModifierFlag::NONE, KeyCode::J, KeyCode::VK_NONE, KeyCode::J, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::K, ModifierFlag::NONE, KeyCode::K, KeyCode::VK_NONE, KeyCode::K, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::L, ModifierFlag::NONE, KeyCode::L, KeyCode::VK_NONE, KeyCode::L, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::M, ModifierFlag::NONE, KeyCode::M, KeyCode::VK_NONE, KeyCode::M, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::N, ModifierFlag::NONE, KeyCode::N, KeyCode::VK_NONE, KeyCode::N, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::O, ModifierFlag::NONE, KeyCode::O, KeyCode::VK_NONE, KeyCode::O, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::P, ModifierFlag::NONE, KeyCode::P, KeyCode::VK_NONE, KeyCode::P, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Q, ModifierFlag::NONE, KeyCode::Q, KeyCode::VK_NONE, KeyCode::Q, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::R, ModifierFlag::NONE, KeyCode::R, KeyCode::VK_NONE, KeyCode::R, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::S, ModifierFlag::NONE, KeyCode::S, KeyCode::VK_NONE, KeyCode::S, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::T, ModifierFlag::NONE, KeyCode::T, KeyCode::VK_NONE, KeyCode::T, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::U, ModifierFlag::NONE, KeyCode::U, KeyCode::VK_NONE, KeyCode::U, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::V, KeyCode::VK_NONE, KeyCode::V, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::W, ModifierFlag::NONE, KeyCode::W, KeyCode::VK_NONE, KeyCode::W, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::A, KeyCode::VK_NONE, KeyCode::A, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::B, ModifierFlag::NONE, KeyCode::B, KeyCode::VK_NONE, KeyCode::B, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::C, ModifierFlag::NONE, KeyCode::C, KeyCode::VK_NONE, KeyCode::C, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::D, ModifierFlag::NONE, KeyCode::D, KeyCode::VK_NONE, KeyCode::D, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::E, ModifierFlag::NONE, KeyCode::E, KeyCode::VK_NONE, KeyCode::E, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::F, ModifierFlag::NONE, KeyCode::F, KeyCode::VK_NONE, KeyCode::F, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::G, ModifierFlag::NONE, KeyCode::G, KeyCode::VK_NONE, KeyCode::G, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::H, ModifierFlag::NONE, KeyCode::H, KeyCode::VK_NONE, KeyCode::H, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::I, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::J, ModifierFlag::NONE, KeyCode::J, KeyCode::VK_NONE, KeyCode::J, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::K, ModifierFlag::NONE, KeyCode::K, KeyCode::VK_NONE, KeyCode::K, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::L, ModifierFlag::NONE, KeyCode::L, KeyCode::VK_NONE, KeyCode::L, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::M, ModifierFlag::NONE, KeyCode::M, KeyCode::VK_NONE, KeyCode::M, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::N, ModifierFlag::NONE, KeyCode::N, KeyCode::VK_NONE, KeyCode::N, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::O, ModifierFlag::NONE, KeyCode::O, KeyCode::VK_NONE, KeyCode::O, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::P, ModifierFlag::NONE, KeyCode::P, KeyCode::VK_NONE, KeyCode::P, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::Q, ModifierFlag::NONE, KeyCode::Q, KeyCode::VK_NONE, KeyCode::Q, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <autogen>__HoldingKeyToKey__ KeyCode::R, ModifierFlag::NONE, KeyCode::R, KeyCode::VK_NONE, KeyCode::X, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen>
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::S, ModifierFlag::NONE, KeyCode::S, KeyCode::VK_NONE, KeyCode::S, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::T, ModifierFlag::NONE, KeyCode::T, KeyCode::VK_NONE, KeyCode::T, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::U, ModifierFlag::NONE, KeyCode::U, KeyCode::VK_NONE, KeyCode::U, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::V, ModifierFlag::NONE, KeyCode::V, KeyCode::VK_NONE, KeyCode::V, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::W, ModifierFlag::NONE, KeyCode::W, KeyCode::VK_NONE, KeyCode::W, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
             <autogen>__HoldingKeyToKey__ KeyCode::X, ModifierFlag::NONE, KeyCode::X, KeyCode::VK_NONE, KeyCode::X, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Y, ModifierFlag::NONE, KeyCode::Y, KeyCode::VK_NONE, KeyCode::Y, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
-            <autogen>__HoldingKeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::Z, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen>
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::Y, ModifierFlag::NONE, KeyCode::Y, KeyCode::VK_NONE, KeyCode::Y, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
+            <!-- <autogen>__HoldingKeyToKey__ KeyCode::Z, ModifierFlag::NONE, KeyCode::Z, KeyCode::VK_NONE, KeyCode::Z, ModifierFlag::CONTROL_L, Option::NOREPEAT</autogen> -->
         </item>
 
         <item>
