@@ -189,8 +189,8 @@
         <item>
             <name>单击SHIFT切换输入法</name>
             <identifier>private.remap.left.shift.alternate.input</identifier>
-            <autogen>__KeyOverlaidModifier__ KeyCode::SHIFT_L, KeyCode::SHIFT_L, KeyCode::SPACE,ModifierFlag::OPTION_L</autogen>
-            <autogen>__KeyOverlaidModifier__ KeyCode::SHIFT_R, KeyCode::SHIFT_R, KeyCode::SPACE,ModifierFlag::OPTION_L</autogen>
+            <autogen>__KeyOverlaidModifier__ KeyCode::SHIFT_L, KeyCode::SHIFT_L, KeyCode::SPACE,ModifierFlag::CONTROL_L</autogen>
+            <autogen>__KeyOverlaidModifier__ KeyCode::SHIFT_R, KeyCode::SHIFT_R, KeyCode::SPACE,ModifierFlag::CONTROL_L</autogen>
         </item>
 
         <item>
