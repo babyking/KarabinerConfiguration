@@ -370,7 +370,7 @@
                         <!-- <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::I, ModifierFlag::COMMAND_L, Option::NOREPEAT</autogen  > -->
 
                         <!-- <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE,  KeyCode::SHIFT_L, KeyCode::SHIFT_L</autogen> -->
-                        <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::SPACE,ModifierFlag::OPTION_L,  Option::NOREPEAT</autogen>
+                        <autogen>__HoldingKeyToKey__ KeyCode::I, ModifierFlag::NONE, KeyCode::I, KeyCode::VK_NONE, KeyCode::SPACE,ModifierFlag::CONTROL_L,  Option::NOREPEAT</autogen>
                         <!-- <autogen>__HoldingKeyToKey__ KeyCode::J, ModifierFlag::NONE, KeyCode::J, KeyCode::VK_NONE, KeyCode::SHIFT_L, ModifierFlag::NONE, Option::NOREPEAT</autogen>  -->
                         <autogen>__HoldingKeyToKey__ KeyCode::J, ModifierFlag::NONE, KeyCode::J, KeyCode::VK_NONE, KeyCode::COMMAND_R,  Option::NOREPEAT</autogen>
                         <autogen>__HoldingKeyToKey__ KeyCode::K, ModifierFlag::NONE, KeyCode::K, KeyCode::VK_NONE, KeyCode::OPTION_R</autogen>
