@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "sdf=>left_option,jkl=>right_option",
+                        "description": "df=>left_option,jk=>right_option",
                         "manipulators": [
                             {
                                 "from": {
