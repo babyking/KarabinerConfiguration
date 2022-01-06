@@ -45,7 +45,9 @@
 
 # 二、快速安装配置
 
-1. 如果你已经安装了karabiner-elements ,直接[点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://babyking.github.io/KarabinerConfiguration/babyking-karabiner-rules.json)
+1. 如果你已经安装了karabiner-elements ,直接 [点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://babyking.github.io/KarabinerConfiguration/babyking-karabiner-rules.json)
+
+   
 
    ![image-20220106165721507](assets/image-20220106165721507.png)
 
