@@ -98,7 +98,7 @@ G键跟tab,backslash 定义相同. 原因是我个人在使用笔记本内置键
 
 
 
-另外补充说明下,光标定位中的键盘的左下角的control键其实是映射到了 right_control,而上面的长按 s和 l则是映射到了left_control.这样做的好处就是键盘的左下角的control还是可以跟其他cmd,option作为组合键进行使用的.如果要直接使用 control+key的话,就需要使用长按s或l+key就可以了.  这样即可以使用control作为lead key,同时传统的control +key也有办法实现.
+另外补充说明下,光标定位中的键盘的左下角的control键映射到了 left_control,而上面的长按 s和 l则是映射到了right_control.这样做的好处就是键盘的左下角的control还是可以跟其他cmd,option作为组合键进行使用的.如果要直接使用 control+key的话,就需要使用长按s或l+key就可以了.  这样即可以使用control作为lead key,同时传统的control +key也有办法实现.
 
 
 
