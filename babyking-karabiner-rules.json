@@ -1251,6 +1251,40 @@
                 },
                 {
                     "from": {
+                        "key_code": "h",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "h"
+                            }
+                        ]
+                    },
+                    "to_if_alone": [
+                        {
+                            "halt": true,
+                            "key_code": "h"
+                        }
+                    ],
+                    "to_if_held_down": [
+                        {
+                            "key_code": "left_command",
+                            "modifiers": [
+                                "left_shift",
+                                "left_option",
+                                "left_control"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
                         "key_code": "tab"
                     },
                     "to": [
