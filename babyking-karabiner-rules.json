@@ -1640,7 +1640,7 @@
                         "key_code": "return_or_enter",
                         "modifiers": {
                             "mandatory": [
-                                "left_shift"
+                                "right_shift"
                             ]
                         }
                     },
@@ -2874,7 +2874,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_shift"
+                            "key_code": "right_shift"
                         }
                     ],
                     "to_if_alone": [
