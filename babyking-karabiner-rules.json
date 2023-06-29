@@ -2,7 +2,7 @@
     "title": "babyking's karabienr rules http://babyking.github.io/KarabinerConfiguration/)",
     "rules": [
         {
-            "description": "[鼠标模拟] left_control+i触发, hjkl移动,空格左击,n右击",
+            "description": "[鼠标模拟] left_control+i触发, hjkl移动,F左键,G右键,V中键,空格加速,D减速,S滚动",
             "manipulators": [
                 {
                     "from": {
@@ -30,7 +30,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "i",
+                        "key_code": "semicolon",
                         "modifiers": {
                             "mandatory": [
                                 "left_control"
@@ -303,7 +303,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "spacebar",
+                        "key_code": "f",
                         "modifiers": {
                             "mandatory": [
                                 "left_control"
@@ -329,59 +329,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "v",
-                        "modifiers": {
-                            "mandatory": [
-                                "left_control"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "pointing_button": "button1"
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
-                        {
-                            "name": "mouse_keys_full",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
-                    "from": {
-                        "key_code": "b",
-                        "modifiers": {
-                            "mandatory": [
-                                "left_control"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "pointing_button": "button3"
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
-                        {
-                            "name": "mouse_keys_full",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
-                    "from": {
-                        "key_code": "n",
+                        "key_code": "g",
                         "modifiers": {
                             "mandatory": [
                                 "left_control"
@@ -407,7 +355,33 @@
                         }
                     ],
                     "from": {
-                        "key_code": "f",
+                        "key_code": "v",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_control"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "pointing_button": "button3"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "mouse_keys_full",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "spacebar",
                         "modifiers": {
                             "mandatory": [
                                 "left_control"
@@ -420,7 +394,7 @@
                     "to": [
                         {
                             "mouse_key": {
-                                "speed_multiplier": 2
+                                "speed_multiplier": 2.5
                             }
                         }
                     ],
